@@ -1,7 +1,7 @@
 package javafuerkids.Kap04.Million1.kohle1;
 import javax.swing.*;
 
-public class Million1
+public class Million1_1
 {
   public static void main(String[] args)
   {
@@ -13,12 +13,11 @@ public class Million1
       ("Wie hoch soll der Zinssatz sein?");
     float Prozent = Float.parseFloat(Eingabe);
     int Laufzeit = 0;
-    while (Kapital < 1000000)
-    {
-      Zinsen = Kapital * Prozent / 100;
-      Kapital = Kapital + Zinsen;
-      Laufzeit++;
-    }
+    /**
+     * TODO: Einige Codezeilen ergänzen
+     * While-Schleife
+     * 
+     */
     if (Laufzeit > 0)
       JOptionPane.showMessageDialog (null,
         "Dein Geld muss " + Laufzeit + " Jahre auf der Bank braten");

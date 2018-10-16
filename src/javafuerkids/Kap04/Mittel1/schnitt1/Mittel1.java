@@ -1,4 +1,4 @@
-package schnitt1;
+package javafuerkids.Kap04.Mittel1.schnitt1;
 import javax.swing.*;
 
 public class Mittel1 

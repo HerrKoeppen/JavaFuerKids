@@ -1,4 +1,4 @@
-package kohle1a;
+package javafuerkids.Kap04.Million1A.kohle1a;
 import javax.swing.*;
 
 public class Million1A
@@ -25,6 +25,6 @@ public class Million1A
         "Dein Geld muss " + Laufzeit + " Jahre auf der Bank braten");
     else
       JOptionPane.showMessageDialog 
-        (null,  "Willkommen im Club der Millionäre!");
+        (null,  "Willkommen im Club der Millionï¿½re!");
   }
 }

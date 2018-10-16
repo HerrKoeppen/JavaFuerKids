@@ -15,11 +15,11 @@ public class Million2
     Eingabe = JOptionPane.showInputDialog
       ("Und wie lange willst du warten?");
     int Laufzeit = Integer.parseInt(Eingabe);
-    for (int Nr = 0; Nr < Laufzeit; Nr++)
-    {
-      Zinsen = Kapital * Prozent / 100;
-      Kapital = Kapital + Zinsen;
-    }
+    /**
+     * TODO: Codezeilen ergänzen
+     * for-Schleife
+     * 
+     */
     JOptionPane.showMessageDialog (null,
       "Du hast nun " + Kapital + " Euro auf dem Konto.");
   }
